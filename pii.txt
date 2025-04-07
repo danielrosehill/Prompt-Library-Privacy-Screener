@@ -1,0 +1,55 @@
+# PII Filters for Privacy Screening
+# These filters should match keywords in prompts containing personal information
+
+# Social Security Number patterns
+SSN
+Social Security
+\d{3}-\d{2}-\d{4}
+
+# Banking information
+bank account
+account number
+account ending
+account balance
+Chase bank
+
+# Student information
+student ID
+GPA
+Stanford University
+home address
+Evergreen Terrace
+Springfield, IL
+
+# Legal case information
+case number
+LC-\d{4}-\d{5}
+divorce proceedings
+attorney
+Bar #
+hearing scheduled
+County Courthouse
+
+# Medical information
+date of birth
+Medicare number
+\d{4}-\d{3}-\d{4}
+ICD-10
+Type 2 Diabetes
+Hypertension
+E11.9
+I10
+Metformin
+Lisinopril
+
+# Personal identifiers
+John Smith
+Sarah Johnson
+Michael Chen
+Jessica Chen
+David Williams
+Emily Wilson
+
+# Addresses
+742 Evergreen Terrace
+Springfield, IL 62701
